@@ -1,0 +1,29 @@
+header p{
+    display: none;
+    margin: 0;
+}
+
+header .dark-blue ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dark-blue{
+    padding: 0.5rem;
+}
+
+header .dark-blue li{
+    padding: 0 1rem;
+}
+
+@media(min-width:768px){
+    header p{
+        display:block;
+    }
+    header .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
